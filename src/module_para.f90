@@ -3,7 +3,7 @@
        integer, parameter :: nVars = 5
 
         character(len=8), parameter :: vNam(nVars) =  &
-                                        (/"U", "V",  "T","MU", "QVAPOR"/) 
+                                        (/"U", "V",  "T","MU", "QVAPOR"/)
         integer, parameter :: we = 55, sn = 55, vert = 21
         integer, parameter :: nLon(nVars) = (/we, we-1, we-1, we-1, we-1/)
         integer, parameter :: nLat(nVars) = (/sn-1, sn, sn-1, sn-1, sn-1/)

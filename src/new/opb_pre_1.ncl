@@ -60,12 +60,7 @@ print("t_scale = " + t_scale)
   if ( .not. isvar("ifil")) then
     ifil="fort.1001"
   end if
-
-  if ( .not. isfilepresent(ifil)) then
-    print("File not found : " + ifil )
-    status_exit(-1)
-  end if
-
+ 
   ofil="wrfinput_new.nc"
 
   fils = (/ifil, ofil/)
